@@ -12,7 +12,7 @@ Visit [Corehalla](http://corehalla.com) |
 #### Repositories
 
 [Corehalla Neue](https://github.com/Corehalla/Corehalla) |
-[Corehalla Data](https://github.com/Corehalla/corehalla.js)
+[Corehalla Data Parser](https://github.com/Corehalla/corehalla.js)
 
 ### Rank X
 

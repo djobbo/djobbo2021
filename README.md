@@ -12,6 +12,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript--F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript--007ACC?style=for-the-badge&logo=TypeScript&logoColor=white)
 ![C#](https://img.shields.io/badge/c%23--239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![Liquid](https://img.shields.io/badge/Liquid--7AB55C?style=for-the-badge&logo=shopify&logoColor=white)
 
 ### Frameworks
 

@@ -24,9 +24,9 @@
 
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code--007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Unity](https://img.shields.io/badge/Unity--000000?style=for-the-badge&logo=unity&logoColor=white)
-![Photoshop](https://img.shields.io/badge/Photoshop--31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white)
-![Illustrator](https://img.shields.io/badge/Illustrator--FF9A00?style=for-the-badge&logo=adobeillustrator&logoColor=white)
-![Xd](https://img.shields.io/badge/Xd--FF26BE?style=for-the-badge&logo=adobexd&logoColor=white)
+![Photoshop](https://img.shields.io/badge/Photoshop--31A8FF?style=for-the-badge&logo=adobe-photoshop&logoColor=white)
+![Illustrator](https://img.shields.io/badge/Illustrator--FF9A00?style=for-the-badge&logo=adobe-illustrator&logoColor=white)
+![Xd](https://img.shields.io/badge/Xd--FF26BE?style=for-the-badge&logo=adobe-xd&logoColor=white)
 
 ## 📂 My Projects
 

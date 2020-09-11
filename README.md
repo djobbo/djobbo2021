@@ -30,7 +30,7 @@
 
 ## 📂 My Projects
 
-## ![Corehalla](https://img.shields.io/badge/-Corehalla-222?style=for-the-badge)
+## ![Corehalla](https://img.shields.io/badge/-Corehalla-555?style=for-the-badge)
 
 > A stats and rankings website for the game [Brawlhalla](http://brawlhalla.com)
 
@@ -44,11 +44,11 @@ Visit [Corehalla](http://corehalla.com) |
 
 ---
 
-## ![Rank X](https://img.shields.io/badge/-Rank%20X-222?style=for-the-badge)
+## ![Rank X](https://img.shields.io/badge/-Rank%20X-555?style=for-the-badge)
 
 ---
 
-## ![Nexaur](https://img.shields.io/badge/-Nexaur-222?style=for-the-badge)
+## ![Nexaur](https://img.shields.io/badge/-Nexaur-555?style=for-the-badge)
 
 > A shopify theme
 
@@ -56,6 +56,6 @@ Visit [Corehalla](http://corehalla.com) |
 
 ---
 
-## ![MokapJS](https://img.shields.io/badge/-Mokap%20JS-222?style=for-the-badge)
+## ![MokapJS](https://img.shields.io/badge/-Mokap%20JS-555?style=for-the-badge)
 
 A mocking api to quickly create complex data structures in js.

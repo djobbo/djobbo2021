@@ -25,7 +25,8 @@ solidity for the past few weeks. Gonna try and launch an app built on
 
 ## 💻 The tech I know and love
 
-**Languages**  
+**Languages**
+
 ![HTML](https://img.shields.io/badge/HTML--E34F26?style=flat-square&logo=HTML5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS--1572B6?style=flat-square&logo=CSS3&logoColor=white)
 ![Sass](https://img.shields.io/badge/Sass--CC6699?style=flat-square&logo=Sass&logoColor=white)
@@ -69,7 +70,7 @@ solidity for the past few weeks. Gonna try and launch an app built on
 A statistics and rankings website for the game
 [Brawlhalla](https://brawlhalla.com).
 
-#### V1
+#### Corehalla V1
 
 [![Corehalla Current Version](https://img.shields.io/badge/Visit-Corehalla_V1-blue?style=flat)](http://corehalla.com)
 
@@ -78,7 +79,7 @@ Current version is closed source and was written using the following stack:
 **Frontend**: HTML, CSS, Javascript, JQuery  
 **Backend**: NodeJS, Express, EJS
 
-#### V2 aka **Corehalla Neue**
+#### Corehalla V2 aka **Corehalla Neue**
 
 New version is still in active development. It is fully open source, under the
 MIT license.

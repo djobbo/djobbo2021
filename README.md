@@ -47,6 +47,8 @@ solidity for the past few weeks. Gonna try and launch an app built on
 ![Express](https://img.shields.io/badge/Express--000000?style=flat-square&logo=express&logoColor=white)
 ![Styled Components](https://img.shields.io/badge/Styled_Components--DB7093?style=flat-square&logo=styled-components&logoColor=white)
 ![Framer Motion](https://img.shields.io/badge/Framer_Motion--0055FF?style=flat-square&logo=framer&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest--C21325?style=flat-square&logo=jest&logoColor=white)
+![Storybook](https://img.shields.io/badge/Storybook--FF4785?style=flat-square&logo=storybook&logoColor=white)
 
 **Softwares**
 
@@ -65,7 +67,7 @@ solidity for the past few weeks. Gonna try and launch an app built on
 
 ## 👨‍💻 What I'm working on
 
-### 📈 Corehalla
+### <img src="assets/imgs/CorehallaNeue_Icon.jpg" alt="drawing" width="16px" height="16px"/> Corehalla
 
 A statistics and rankings website for the game
 [Brawlhalla](https://brawlhalla.com).
@@ -87,7 +89,7 @@ MIT license.
 [![CorehallaNeue Stable Version](https://img.shields.io/badge/Visit-Corehalla_Neue_Stable-blue?style=flat)](https://neue.corehalla.com)
 [![CorehallaNeue UnStable Version](https://img.shields.io/badge/Visit-Corehalla_Neue_Unstable/Nightly-blue?style=flat)](https://corehalla-neue.vercel.app/)
 
-![CorehallaNeue Preview](assets/imgs/CorehallaNeue_Preview.jpg)
+<img src="assets/imgs/CorehallaNeue_Preview.jpg" alt="drawing" width="50%"/>
 
 Technologies used are the following:
 
@@ -98,28 +100,31 @@ Technologies used are the following:
 
 ### 🎩 Mokap.js
 
-A simple mocking api to quickly create complex data structures in javascript and
+A simple NPM Module to quickly create complex data structures in javascript and
 typescript.
+
+<details>
+
+<summary>View Code snippet</summary>
 
 ```ts
 import { mock, map, bool, str, num, arr } from 'mokapjs';
 
 const projectGenerator = map({
-    // Generates random boolean
-    isOpenSource: bool
+	// Generates random boolean isOpenSource: bool
 
-    // Generates random string using Regex
+	// Generates random string using Regex
 	name: str(/[A-Z][a-z]{4,10}_[0-9]*/),
 
-    // Generate Number between 0 and 20
+	// Generate Number between 0 and 20
 	stars: num(0, 20),
 
-    // Chooses between the two options
+	// Chooses between the two options
 	author: choice('Alfie', 'Djobbo'),
 });
 
-// Generator will create an array of 10 projects when called
-const projectsGenerator = arr(projectGenerator, 10);
+// Generator will create an array of 10 projects when called const
+projectsGenerator = arr(projectGenerator, 10);
 
 const projects = mock(projectsGenerator);
 
@@ -135,7 +140,35 @@ const projects = mock(projectsGenerator);
 // ]
 ```
 
+</details>
+
 [![Mokap Repo Link](https://img.shields.io/badge/Visit_Repository-AlfieGoldson/Mokap-orange?style=flat&logo=github)](https://github.com/AlfieGoldson/Mokap)
+
+### Brawlhalla French League Website
+
+> Website is still under construction
+
+[![BFL](https://img.shields.io/badge/Visit-Brawlhalla_French_League-blue?style=flat)](https://bfl.corehalla.com/)
+
+<img src="assets/imgs/BFL_Preview.png" alt="drawing" width="50%"/>
+
+Technologies used:  
+React, NextJS, SASS/SCSS, Framer Motion, Contentful
+
+[![BFL Repo](https://img.shields.io/badge/Visit_Repository-AlfieGoldson/BFL--Website-orange?style=flat&logo=github)](https://github.com/AlfieGoldson/BFL-Website)
+
+### <img src="assets/imgs/Paro_Icon.png" alt="drawing" width="16px" height="16px"/> Paro Blog
+
+> Website is still under construction
+
+[![Paro](https://img.shields.io/badge/Visit-Paro_Studio-blue?style=flat)](https://paro.studio/)
+
+<img src="assets/imgs/Paro_Preview.jpg" alt="drawing" width="50%"/>
+
+Technologies used:  
+React, NextJS, SASS/SCSS, Framer Motion, GraphQL, Markdown
+
+[![Paro Repo](https://img.shields.io/badge/Visit_Repository-AlfieGoldson/paro-orange?style=flat&logo=github)](https://github.com/AlfieGoldson/Paro)
 
 ## 🕑 Past Projects
 
@@ -144,7 +177,7 @@ const projects = mock(projectsGenerator);
 The largest project I ever made with [Unity](https://unity.com)/C#. It is a 3D
 Low Poly Map and Tree Editor called Landshape.
 
-![Landshape_Preview](assets/imgs/Landshape_Preview.jpg)
+<img src="assets/imgs/Landshape_Preview.jpg" alt="drawing" width="50%"/>
 
 You can see watch the demo here:  
 [Terrain Editor](https://www.youtube.com/watch?v=tz9Gzjl_mS0)  
@@ -156,7 +189,7 @@ A shopify theme built using the liquid programming language.
 
 [![Nexaur Repo Link](https://img.shields.io/badge/Visit_Repository-AlfieGoldson/Nexaur-orange?style=flat&logo=github)](https://github.com/AlfieGoldson/Nexaur)
 
-## 📝 My Github Stats
+## 📈 My Github Stats
 
 [![AlfieGoldson's github stats](https://github-readme-stats.vercel.app/api?username=alfiegoldson&count_private=true&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
 

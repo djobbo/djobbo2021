@@ -4,11 +4,10 @@
 
 I'm a 21yo self taught fullstack web developer.
 
-I started programming at 11yo by making [Minecraft](https://minecraft.net) mods,
-and server plugins.
+I started programming at 11yo by making Minecraft mods, and server plugins.
 
-I then developed small games using [Unity](https://unity.com) and C# and used to
-post all that stuff on twitter as [@Ludopod](https://twitter.com/ludopod).
+I then developed small games using Unity and C# and used to post all that stuff
+on twitter as [@Ludopod](https://twitter.com/ludopod).
 
 I started web development when I was in high school, building small websites
 using HTML, CSS and JavaScript. I then discovered JS frameworks and fell into
@@ -20,8 +19,8 @@ fluent at all, but it's fun from time to time.
 ## 📚 What I'm currently studying
 
 I've been learning the inner workings of cryptocurrencies, blockchains &
-solidity for the past few weeks. Gonna try and launch an app built on
-[Ethereum](https://ethereum.org/) soon™.
+solidity for the past few weeks. Gonna try and launch an app built on Ethereum
+soon™.
 
 ## 💻 The tech I know and love
 
@@ -36,6 +35,7 @@ solidity for the past few weeks. Gonna try and launch an app built on
 ![C#](https://img.shields.io/badge/c%23--239120?style=flat-square&logo=c-sharp&logoColor=white)
 ![Liquid](https://img.shields.io/badge/Liquid--7AB55C?style=flat-square&logo=shopify&logoColor=white)
 ![Solidity](https://img.shields.io/badge/Solidity--363636?style=flat-square&logo=solidity&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL--E10098?style=flat-square&logo=graphql&logoColor=white)
 
 **Frameworks and Libraries**
 
@@ -67,10 +67,9 @@ solidity for the past few weeks. Gonna try and launch an app built on
 
 ## 👨‍💻 What I'm working on
 
-### <img src="assets/imgs/CorehallaNeue_Icon.jpg" alt="drawing" width="16px" height="16px"/> Corehalla
+### <img src="assets/imgs/CorehallaNeue_Icon.jpg" alt="ch_neue_icon" width="16px" height="16px"/> Corehalla
 
-A statistics and rankings website for the game
-[Brawlhalla](https://brawlhalla.com).
+A statistics and rankings website for the game Brawlhalla.
 
 #### Corehalla V1
 
@@ -89,7 +88,7 @@ MIT license.
 [![CorehallaNeue Stable Version](https://img.shields.io/badge/Visit-Corehalla_Neue_Stable-blue?style=flat)](https://neue.corehalla.com)
 [![CorehallaNeue UnStable Version](https://img.shields.io/badge/Visit-Corehalla_Neue_Unstable/Nightly-blue?style=flat)](https://corehalla-neue.vercel.app/)
 
-<img src="assets/imgs/CorehallaNeue_Preview.jpg" alt="drawing" width="50%"/>
+<img src="assets/imgs/CorehallaNeue_Preview.jpg" alt="ch_neue_preview" width="50%"/>
 
 Technologies used are the following:
 
@@ -150,20 +149,20 @@ const projects = mock(projectsGenerator);
 
 [![BFL](https://img.shields.io/badge/Visit-Brawlhalla_French_League-blue?style=flat)](https://bfl.corehalla.com/)
 
-<img src="assets/imgs/BFL_Preview.png" alt="drawing" width="50%"/>
+<img src="assets/imgs/BFL_Preview.png" alt="bfl_preview" width="50%"/>
 
 Technologies used:  
-React, NextJS, SASS/SCSS, Framer Motion, Contentful
+React, NextJS, SASS/SCSS, Framer Motion, Contentful, GraphQL
 
 [![BFL Repo](https://img.shields.io/badge/Visit_Repository-AlfieGoldson/BFL--Website-orange?style=flat&logo=github)](https://github.com/AlfieGoldson/BFL-Website)
 
-### <img src="assets/imgs/Paro_Icon.png" alt="drawing" width="16px" height="16px"/> Paro Blog
+### <img src="assets/imgs/Paro_Icon.png" alt="paro_icon" width="16px" height="16px"/> Paro Blog
 
 > Website is still under construction
 
 [![Paro](https://img.shields.io/badge/Visit-Paro_Studio-blue?style=flat)](https://paro.studio/)
 
-<img src="assets/imgs/Paro_Preview.jpg" alt="drawing" width="50%"/>
+<img src="assets/imgs/Paro_Preview.jpg" alt="paro_preview" width="50%"/>
 
 Technologies used:  
 React, NextJS, SASS/SCSS, Framer Motion, GraphQL, Markdown
@@ -172,12 +171,22 @@ React, NextJS, SASS/SCSS, Framer Motion, GraphQL, Markdown
 
 ## 🕑 Past Projects
 
+### ⛏️ Minecraft GIF to Bundle Animation
+
+Utility to transform gifs into Minecraft datapacks to make gifs viewable
+ingame.  
+Built with Python, Pillow
+
+<img src="assets/imgs/MCGifBundle_Preview.gif" alt="drawing" width="50%"/>
+
+[![MCGifBundle Repo](https://img.shields.io/badge/Visit_Repository-AlfieGoldson/MCGifBundle-orange?style=flat&logo=github)](https://github.com/AlfieGoldson/MCGifBundle)
+
 ### Landshape
 
-The largest project I ever made with [Unity](https://unity.com)/C#. It is a 3D
-Low Poly Map and Tree Editor called Landshape.
+The largest project I ever made with Unity/C#. It is a 3D Low Poly Map and Tree
+Editor called Landshape.
 
-<img src="assets/imgs/Landshape_Preview.jpg" alt="drawing" width="50%"/>
+<img src="assets/imgs/Landshape_Preview.jpg" alt="landshape_preview" width="50%"/>
 
 You can see watch the demo here:  
 [Terrain Editor](https://www.youtube.com/watch?v=tz9Gzjl_mS0)  

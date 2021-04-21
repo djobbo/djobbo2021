@@ -1,0 +1,14 @@
+@import './theme.scss';
+
+.page {
+	margin: 0 auto;
+	padding: 2rem 0;
+	display: grid;
+	max-width: 1200px;
+
+	@media print {
+		grid-template-columns: 1fr 1fr;
+		padding: 0;
+		max-width: auto;
+	}
+}

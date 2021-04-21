@@ -1,0 +1,39 @@
+@import '~styles/theme.scss';
+
+.heading {
+	margin-bottom: 1rem;
+
+	.leading {
+		display: flex;
+		align-items: center;
+		gap: 1.5rem;
+		margin-bottom: 0.75rem;
+
+		.firstname {
+			font-size: 2.75rem;
+			font-weight: 200;
+			line-height: 3rem;
+		}
+
+		.lastname {
+			font-size: 1rem;
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+	}
+
+	.titles {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 0.25rem;
+
+		.title {
+			background-color: $black;
+			color: $white;
+			padding: 0.25rem 1rem;
+			text-transform: uppercase;
+			display: inline-block;
+		}
+	}
+}

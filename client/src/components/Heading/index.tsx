@@ -1,4 +1,5 @@
 import { FC } from 'react';
+import { dvmmLogo } from '~util/icons';
 import styles from './index.module.scss';
 
 interface Props {
@@ -11,10 +12,11 @@ export const Heading: FC<Props> = ({ firstname, lastname, titles }) => (
 	<header className={styles.heading}>
 		<div className={styles.leading}>
 			<figure className={styles.logo}>
-				<svg viewBox='0 0 10 10' width={64}>
+				{dvmmLogo}
+				{/* <svg viewBox='0 0 10 10' width={64}>
 					<title>Logo</title>
-					<circle cx={5} cy={5} r={5} fill='black' />
-				</svg>
+					<circle cx={5} cy={5} r={5} />
+				</svg> */}
 				<figcaption />
 			</figure>
 			<div>

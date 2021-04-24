@@ -9,6 +9,7 @@
 	@media print {
 		grid-template-columns: 1fr 1fr;
 		padding: 0;
+		gap: 1rem;
 		max-width: auto;
 	}
 }

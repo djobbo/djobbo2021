@@ -15,7 +15,7 @@ export default function Home() {
 					titles={['Développement Web Fullstack', 'Design UI/UX']}
 				/>
 				<Section title='À propos' icon={generalIcons.person}>
-					<SubSection>
+					<SubSection title='Qui suis-je ?'>
 						<p>
 							Je suis un développeur Fullstack, avec un focus sur
 							le Frontend et le design d'interfaces et
@@ -24,6 +24,15 @@ export default function Home() {
 							en plein apprentissage de Solidity, pour créer des
 							smart contracts sur la blockchain Ethereum.
 						</p>
+						<ul>
+							<li>
+								{techIcons.gmail}
+								djobbo.maiga@gmail.com
+							</li>
+							<li>{generalIcons.globe} dvmm.dev</li>
+							<li>{techIcons.github} github.com/AlfieGoldson</li>
+							<li>{techIcons.linkedin} linkedin.com/in/dvmm</li>
+						</ul>
 					</SubSection>
 				</Section>
 				<Section
@@ -44,12 +53,9 @@ export default function Home() {
 								Sass, Contentful et GraphQL.
 							</li>
 							<li>
-								Design de marchandise officielle (T-shirts et
-								Maillots Esport).
-							</li>
-							<li>
-								Organisation d'événements en ligne: concours et
-								tournois esportifs.
+								Organisation d'événements en ligne et design de
+								marchandise officielle (T-shirts et Maillots
+								Esport).
 							</li>
 						</ul>
 					</SubSection>
@@ -62,10 +68,6 @@ export default function Home() {
 								de streaming Twitch.tv utilisant le stack:
 								React, Typescript, NodeJS, TwitchAPI.
 							</li>
-							<li>
-								Création d'un robot Discord pour gérer le
-								serveur Discord.
-							</li>
 						</ul>
 					</SubSection>
 					<SubSection title='Corehalla (Projet Personnel)'>
@@ -74,16 +76,16 @@ export default function Home() {
 						<ul>
 							<li>
 								Création de la maquette du site internet avec
-								Adobe XD et dévelopment des user-stories.
+								Adobe XD.
 							</li>
 							<li>
-								Réalisation (en cours) du site web en utilisant
-								le stack suivant: React, Next.js, Typescript,
-								Sass, Framer Motion et l'API REST de Brawlhalla.
+								Dévelopement du site avec le stack: React,
+								Next.js, Typescript, Sass, Framer Motion et
+								l'API REST de Brawlhalla.
 								<br />
-								Une ancienne version est actuellement utilisée
-								publiquement, cette version utilise le stack:
-								NodeJS, Express, EJS, JQuery.
+								Une version antérieure basée sur le stack
+								NodeJS, Express, EJS et JQuery est actuellement
+								publique. (corehalla.com)
 							</li>
 							<li>
 								Création d'un robot Discord en utilisant NodeJS,
@@ -95,30 +97,55 @@ export default function Home() {
 						<strong>@Étoile Alençonnaise</strong> (2012 - 2016)
 					</SubSection>
 				</Section>
+			</div>
+			<div>
 				<Section
 					title='Formation et Diplômes'
 					icon={generalIcons.gradCap}
 				>
-					<SubSection>
-						<strong>Permis B</strong>, obtenu en 2017.
-					</SubSection>
-					<SubSection>
-						<strong>Baccalauréat Scientifique</strong> mention Bien,
-						obtenu en 2017.
-					</SubSection>
-					<SubSection>
-						<strong>Diplôme National du Brevet</strong> mention Très
-						Bien, obtenu en 2014.
-					</SubSection>
-					<SubSection>
-						<strong>
-							Diplôme de juge en Gymnastique Artistique Masculine
-						</strong>
-						, obtenu en 2011.
-					</SubSection>
+					<SubSection
+						title={
+							<>
+								<strong>Licence 3 Mathématiques</strong>{' '}
+								@UNICAEN (Actuellement)
+							</>
+						}
+					/>
+					<SubSection
+						title={
+							<>
+								<strong>Permis B</strong>, obtenu en 2017.
+							</>
+						}
+					/>
+					<SubSection
+						title={
+							<>
+								<strong>Baccalauréat Scientifique</strong>{' '}
+								mention Bien, obtenu en 2017.
+							</>
+						}
+					/>
+					<SubSection
+						title={
+							<>
+								<strong>Diplôme National du Brevet</strong>{' '}
+								mention Très Bien, obtenu en 2014.
+							</>
+						}
+					/>
+					<SubSection
+						title={
+							<>
+								<strong>
+									Diplôme de juge en Gymnastique Artistique
+									Masculine
+								</strong>
+								, obtenu en 2011.
+							</>
+						}
+					/>
 				</Section>
-			</div>
-			<div>
 				<Section title='Mon Tech Stack' icon={generalIcons.code}>
 					<SubSection title='Langages'>
 						<IconGrid
@@ -188,7 +215,7 @@ export default function Home() {
 					</SubSection>
 				</Section>
 
-				<Section title='Autre Compétences' icon={generalIcons.puzzle}>
+				<Section title='Autres Compétences' icon={generalIcons.puzzle}>
 					<SubSection title='Langues'>
 						<ul>
 							<li>Français - Langue Natale</li>

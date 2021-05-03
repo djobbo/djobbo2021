@@ -4,23 +4,10 @@
 
 I'm a 21yo self taught fullstack web developer.
 
-I started programming at 11yo by making Minecraft mods, and server plugins.
-
-I then developed small games using Unity and C# and used to post all that stuff
-on twitter as [@Ludopod](https://twitter.com/ludopod).
-
-I started web development when I was in high school, building small websites
-using HTML, CSS and JavaScript. I then discovered JS frameworks and fell into
-the rabbit hole.
-
-I also dabbled with some lower level languages like C/C++ & assembly but I'm not
-fluent at all, but it's fun from time to time.
-
 ## 📚 What I'm currently studying
 
-I've been learning the inner workings of cryptocurrencies, blockchains &
-solidity for the past few weeks. Gonna try and launch an app built on Ethereum
-soon™.
+I've been learning blockchain & solidity for the past few weeks. Gonna try and
+launch an app built on Ethereum soon™.
 
 ## 💻 My Tech Stack
 
@@ -52,139 +39,6 @@ soon™.
 ![Git](https://img.shields.io/badge/Git--F05032?style=flat&logo=git&logoColor=white)
 ![Github](https://img.shields.io/badge/Github--181717?style=flat&logo=github&logoColor=white)
 ![Markdown](https://img.shields.io/badge/Markdown--000000?style=flat&logo=markdown&logoColor=white)
-
-## 👨‍💻 What I'm working on
-
-### <img src="assets/imgs/CorehallaNeue_Icon.jpg" alt="ch_neue_icon" width="16px" height="16px"/> Corehalla
-
-A statistics and rankings website for the game Brawlhalla.
-
-#### Corehalla V1
-
-[![Corehalla Current Version](https://img.shields.io/badge/Visit-Corehalla_V1-blue?style=flat)](http://corehalla.com)
-
-Current version is closed source and was written using the following stack:
-
-**Frontend**: HTML, CSS, Javascript, JQuery  
-**Backend**: NodeJS, Express, EJS
-
-#### Corehalla V2 aka **Corehalla Neue**
-
-New version is still in active development. It is fully open source, under the
-MIT license.
-
-[![CorehallaNeue Stable Version](https://img.shields.io/badge/Visit-Corehalla_Neue_Stable-blue?style=flat)](https://neue.corehalla.com)
-[![CorehallaNeue UnStable Version](https://img.shields.io/badge/Visit-Corehalla_Neue_Unstable/Nightly-blue?style=flat)](https://corehalla-neue.vercel.app/)
-
-<img src="assets/imgs/CorehallaNeue_Preview.jpg" alt="ch_neue_preview" width="50%"/>
-
-Technologies used are the following:
-
-**Frontent**: React, NextJS, SASS/SCSS, Framer Motion  
-**Backend**: NodeJS, NextJS Serverless Functions, Firebase Auth, Firestore
-
-[![CorehallaNeue Repo Link](https://img.shields.io/badge/Visit_Repository-AlfieGoldson/CorehallaNeue-orange?style=flat&logo=github)](https://github.com/AlfieGoldson/CorehallaNeue)
-
-### 🎩 Mokap.js
-
-A simple NPM Module to quickly create complex data structures in javascript and
-typescript.
-
-<details>
-
-<summary>View Code snippet</summary>
-
-```ts
-import { mock, map, bool, str, num, arr } from 'mokapjs';
-
-const projectGenerator = map({
-	// Generates random boolean isOpenSource: bool
-
-	// Generates random string using Regex
-	name: str(/[A-Z][a-z]{4,10}_[0-9]*/),
-
-	// Generate Number between 0 and 20
-	stars: num(0, 20),
-
-	// Chooses between the two options
-	author: choice('Alfie', 'Djobbo'),
-});
-
-// Generator will create an array of 10 projects when called const
-projectsGenerator = arr(projectGenerator, 10);
-
-const projects = mock(projectsGenerator);
-
-// Possible Output
-// projects: [
-//     {
-//         isOpenSource: true,
-//         name: 'Mokapjs_03',
-//         stars: 18,
-//         author: 'Alfie'
-//     }
-//     ... // 9 More
-// ]
-```
-
-</details>
-
-[![Mokap Repo Link](https://img.shields.io/badge/Visit_Repository-AlfieGoldson/Mokap-orange?style=flat&logo=github)](https://github.com/AlfieGoldson/Mokap)
-
-### Brawlhalla French League Website
-
-> Website is still under construction
-
-[![BFL](https://img.shields.io/badge/Visit-Brawlhalla_French_League-blue?style=flat)](https://bfl.corehalla.com/)
-
-<img src="assets/imgs/BFL_Preview.png" alt="bfl_preview" width="50%"/>
-
-Technologies used:  
-React, NextJS, SASS/SCSS, Framer Motion, Contentful, GraphQL
-
-[![BFL Repo](https://img.shields.io/badge/Visit_Repository-AlfieGoldson/BFL--Website-orange?style=flat&logo=github)](https://github.com/AlfieGoldson/BFL-Website)
-
-### <img src="assets/imgs/Paro_Icon.png" alt="paro_icon" width="16px" height="16px"/> Paro Blog
-
-> Website is still under construction
-
-[![Paro](https://img.shields.io/badge/Visit-Paro_Studio-blue?style=flat)](https://paro.studio/)
-
-<img src="assets/imgs/Paro_Preview.jpg" alt="paro_preview" width="50%"/>
-
-Technologies used:  
-React, NextJS, SASS/SCSS, Framer Motion, GraphQL, Markdown
-
-[![Paro Repo](https://img.shields.io/badge/Visit_Repository-AlfieGoldson/paro-orange?style=flat&logo=github)](https://github.com/AlfieGoldson/Paro)
-
-## 🕑 Past Projects
-
-### ⛏️ Minecraft GIF to Bundle Animation
-
-Utility to transform gifs into Minecraft datapacks to make gifs viewable
-ingame.  
-Built with Python, Pillow
-
-<img src="assets/imgs/MCGifBundle_Preview.gif" alt="drawing" width="50%"/>
-
-[![MCGifBundle Repo](https://img.shields.io/badge/Visit_Repository-AlfieGoldson/MCGifBundle-orange?style=flat&logo=github)](https://github.com/AlfieGoldson/MCGifBundle)
-
-### Landshape
-
-The largest project I ever made with Unity/C#. It is a 3D Low Poly Map and Tree
-Editor called Landshape.
-
-<img src="assets/imgs/Landshape_Preview.jpg" alt="landshape_preview" width="50%"/>
-
-You can see watch the demo here:  
-[Terrain Editor](https://www.youtube.com/watch?v=tz9Gzjl_mS0)  
-[Tree Editor](https://www.youtube.com/watch?v=QwkU8khU_sM)
-
-### 🛒 Nexaur
-
-A shopify theme built using the liquid programming language.
-
-[![Nexaur Repo Link](https://img.shields.io/badge/Visit_Repository-AlfieGoldson/Nexaur-orange?style=flat&logo=github)](https://github.com/AlfieGoldson/Nexaur)
 
 ## 📈 My Github Stats
 

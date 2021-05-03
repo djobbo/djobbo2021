@@ -3,7 +3,7 @@ const fsPromises = require('fs').promises;
 const path = require('path');
 
 const headless = true;
-const margin = '0.45in';
+const margin = '0.4in';
 
 (async () => {
 	const browser = await chromium.launch({ headless });

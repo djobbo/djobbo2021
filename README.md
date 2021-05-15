@@ -40,8 +40,10 @@ launch an app built on Ethereum soon™.
 ![Github](https://img.shields.io/badge/Github--181717?style=flat&logo=github&logoColor=white)
 ![Markdown](https://img.shields.io/badge/Markdown--000000?style=flat&logo=markdown&logoColor=white)
 
-## 📈 My Github Stats
+## 📈 My Coding Stats
 
-[![AlfieGoldson's github stats](https://github-readme-stats.vercel.app/api?username=alfiegoldson&count_private=true&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
+![AlfieGoldson's github stats](https://github-readme-stats.vercel.app/api?username=alfiegoldson&count_private=true&show_icons=true)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=alfiegoldson&layout=compact)
+
+![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=AlfieGoldson&layout=compact)

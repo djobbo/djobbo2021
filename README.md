@@ -1,5 +1,11 @@
 # Hi there 👋, i'm Djobbo!
 
+![Visits Badge](https://badges.pufler.dev/visits/AlfieGoldson/AlfieGoldson)
+![Years Badge](https://badges.pufler.dev/years/AlfieGoldson)
+![Repos Badge](https://badges.pufler.dev/repos/AlfieGoldson)
+![Gists Badge](https://badges.pufler.dev/gists/AlfieGoldson)
+![Commits Badge](https://badges.pufler.dev/commits/monthly/AlfieGoldson)
+
 ## 🎸 Who Am I?
 
 I'm a 21yo self taught fullstack web developer.

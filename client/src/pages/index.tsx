@@ -79,8 +79,8 @@ export default function HomePage() {
 									'Module to quickly create complex data structures in javascript and typescript.',
 								images: [
 									{
-										src: '/images/projects/Ants.jpg',
-										alt: 'Ants',
+										src: '/images/projects/Mokap.jpg',
+										alt: 'Mokap',
 									},
 								],
 								tags: ['Typescript'],
@@ -92,8 +92,8 @@ export default function HomePage() {
 									'Discord.js wrapper to build bots using JSX and Express like syntax.',
 								images: [
 									{
-										src: '/images/projects/Ants.jpg',
-										alt: 'Ants',
+										src: '/images/projects/FancyDiscord.jpg',
+										alt: 'Fancy Discord',
 									},
 								],
 								tags: ['Typescript', 'Discord API'],
@@ -131,7 +131,7 @@ export default function HomePage() {
 								images: [
 									{
 										src: '/images/projects/Landshape.jpg',
-										alt: 'Brawlhalla French League',
+										alt: 'Landshape',
 									},
 								],
 								tags: ['Unity', 'C#'],

@@ -1,0 +1,17 @@
+@import '~styles/theme.scss';
+
+.tag {
+	font-size: 0.75rem;
+	font-weight: $bold;
+	color: $light-var1;
+	text-transform: uppercase;
+
+	&:not(:last-child) {
+		&::after {
+			content: '•';
+			display: inline-block;
+			color: $accent;
+			margin: 0 0.5rem;
+		}
+	}
+}

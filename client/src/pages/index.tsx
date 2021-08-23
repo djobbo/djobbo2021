@@ -1,261 +1,163 @@
-import { Heading } from '~components/Heading';
-import { IconGrid } from '~components/IconGrid';
-import { Section } from '~components/Section';
-import { SubSection } from '~components/SubSection';
+import { Header } from '~components/Header';
+import { Landing } from '~components/Landing';
+import { navLinks } from '~util/navigation';
 import styles from '~styles/Home.module.scss';
-import { generalIcons, techIcons } from '~util/icons';
+import { SkillGroup } from '~components/SkillGroup';
+import { skills } from '~data/skills';
+import { ProjectGroup } from '~components/ProjectGroup/ProjectGroup';
+import { Project } from '~components/ProjectGroup/Project';
 
-export default function Home() {
+export default function HomePage() {
 	return (
-		<>
-			<div className={styles.page}>
-				<div>
-					<Heading
-						firstname='Djobbo-Victor'
-						lastname='Maiga-Monsallier'
-						titles={['Développement Web Fullstack', 'Design UI/UX']}
-					/>
-					<Section title='À propos' icon={generalIcons.person}>
-						<SubSection title='Qui suis-je ?'>
-							<p>
-								Je suis un développeur Fullstack, avec un focus
-								sur le Frontend et le design d'interfaces et
-								d'expériences utilisateurs. J'utilise le
-								Javascript, le Typescript, NodeJS et React au
-								quotidien. Je suis en plein apprentissage de
-								Solidity, pour créer des smart contracts sur la
-								blockchain Ethereum.
-							</p>
-							<ul>
-								<li>
-									{techIcons.gmail}
-									djobbo.maiga@gmail.com
-								</li>
-								<li>{generalIcons.globe} dvmm.dev</li>
-								<li>
-									{techIcons.github} github.com/AlfieGoldson
-								</li>
-								<li>
-									{techIcons.linkedin} linkedin.com/in/dvmm
-								</li>
-							</ul>
-						</SubSection>
-					</Section>
-					<Section
-						title='Expérience et Projets Personnels'
-						icon={generalIcons.suitcase}
-					>
-						<SubSection title='Développeur Web & UI/UX Designer Freelance'>
-							Association{' '}
-							<strong>@Brawlhalla French League</strong> (depuis
-							octobre 2020)
-							<ul>
-								<li>
-									Création de la maquette du site internet
-									avec Adobe XD et dévelopment des
-									user-stories.
-								</li>
-								<li>
-									Réalisation (en cours) du site web en
-									utilisant le stack suivant: React, Next.js,
-									Typescript, Sass, Contentful et GraphQL.
-								</li>
-								<li>
-									Organisation d'événements en ligne et design
-									de marchandise officielle (T-shirts et
-									Maillots Esport).
-								</li>
-							</ul>
-						</SubSection>
-						<SubSection title='Développeur Freelance'>
-							<strong>@Global Breakout</strong> (janvier 2021 -
-							avril 2021)
-							<ul>
-								<li>
-									Dévelopement d'une extension pour la
-									platforme de streaming Twitch.tv utilisant
-									le stack: React, Typescript, NodeJS,
-									TwitchAPI.
-								</li>
-							</ul>
-						</SubSection>
-						<SubSection title='Corehalla (Projet Personnel)'>
-							Site de statistiques et classements pour le jeu
-							Brawlhalla.
-							<ul>
-								<li>
-									Création de la maquette du site internet
-									avec Adobe XD.
-								</li>
-								<li>
-									Dévelopement du site avec le stack: React,
-									Next.js, Typescript, Sass, Framer Motion et
-									l'API REST de Brawlhalla.
-									<br />
-									Une version antérieure basée sur le stack
-									NodeJS, Express, EJS et JQuery est
-									actuellement publique. (corehalla.com)
-								</li>
-								<li>
-									Création d'un robot Discord en utilisant
-									NodeJS, Typescript et Discord.js.
-								</li>
-							</ul>
-						</SubSection>
-						<SubSection title='Entraîneur de Gymnastique Artistique Masculine'>
-							<strong>@Étoile Alençonnaise</strong> (2012 - 2016)
-						</SubSection>
-					</Section>
+		<div className={styles.wrapper}>
+			<Header navLinks={navLinks} />
+			<Landing />
+			<section className={styles.section} id='about'>
+				<div className={styles.sectionContent}>
+					<h2 className={styles.sectionTitle}>About me</h2>
 				</div>
-				<div>
-					<Section
-						title='Formation et Diplômes'
-						icon={generalIcons.gradCap}
-					>
-						<SubSection
-							title={
-								<>
-									<strong>Licence 3 Mathématiques</strong>{' '}
-									@UNICAEN (Actuellement)
-								</>
-							}
-						/>
-						<SubSection
-							title={
-								<>
-									<strong>Permis B</strong>, obtenu en 2017.
-								</>
-							}
-						/>
-						<SubSection
-							title={
-								<>
-									<strong>Baccalauréat Scientifique</strong>{' '}
-									mention Bien, obtenu en 2017.
-								</>
-							}
-						/>
-						<SubSection
-							title={
-								<>
-									<strong>Diplôme National du Brevet</strong>{' '}
-									mention Très Bien, obtenu en 2014.
-								</>
-							}
-						/>
-						<SubSection
-							title={
-								<>
-									<strong>
-										Diplôme de juge en Gymnastique
-										Artistique Masculine
-									</strong>
-									, obtenu en 2011.
-								</>
-							}
-						/>
-					</Section>
-					<Section title='Mon Tech Stack' icon={generalIcons.code}>
-						<SubSection title='Langages'>
-							<IconGrid
-								icons={[
-									{ name: 'HTML5', icon: techIcons.html },
-									{ name: 'CSS3', icon: techIcons.css },
-									{ name: 'JavaScript', icon: techIcons.js },
-									{ name: 'TypeScript', icon: techIcons.ts },
-									{ name: 'SCSS/SASS', icon: techIcons.scss },
-									{ name: 'Python', icon: techIcons.py },
-									{ name: 'C Sharp', icon: techIcons.cs },
-									{ name: 'GraphQL', icon: techIcons.gql },
-									{ name: 'Solidity', icon: techIcons.sol },
-									{
-										name: 'Shopify Liquid',
-										icon: techIcons.liquid,
-									},
-								]}
-							/>
-						</SubSection>
-						<SubSection title='Librairies / Frameworks'>
-							<IconGrid
-								icons={[
-									{ name: 'NodeJS', icon: techIcons.nodejs },
-									{ name: 'React', icon: techIcons.react },
-									{ name: 'NextJS', icon: techIcons.nextjs },
-									{ name: 'Vue', icon: techIcons.vue },
-									{ name: 'Svelte', icon: techIcons.svelte },
-									{
-										name: 'Express',
-										icon: techIcons.express,
-									},
-									{
-										name: 'Styled Components',
-										icon: techIcons.styledComponents,
-									},
-									{
-										name: 'Framer Motion',
-										icon: techIcons.framerMotion,
-									},
-									{ name: 'Jest', icon: techIcons.jest },
-									{
-										name: 'Storybook',
-										icon: techIcons.storybook,
-									},
-									{ name: 'Flask', icon: techIcons.flask },
-									{ name: 'Pillow', icon: techIcons.py },
-								]}
-							/>
-						</SubSection>
-						<SubSection title='Outils / Logiciels'>
-							<IconGrid
-								icons={[
-									{ name: 'VS Code', icon: techIcons.vscode },
-									{ name: 'Vim', icon: techIcons.vim },
-									{ name: 'Adobe XD', icon: techIcons.xd },
-									{
-										name: 'Adobe Photoshop',
-										icon: techIcons.photoshop,
-									},
-									{
-										name: 'Adobe Illustrator',
-										icon: techIcons.illustrator,
-									},
-									{ name: 'Markdown', icon: techIcons.md },
-									{ name: 'Git', icon: techIcons.git },
-									{ name: 'Github', icon: techIcons.github },
-								]}
-							/>
-						</SubSection>
-					</Section>
+			</section>
+			<section className={`${styles.section} ${styles.alt}`} id='skills'>
+				<div className={styles.sectionContent}>
+					<h2 className={styles.sectionTitle}>Skills</h2>
+					<SkillGroup skills={skills} />
+				</div>
+			</section>
+			<section
+				className={`${styles.section} ${styles.alt}`}
+				id='projects'
+			>
+				<div className={styles.sectionContent}>
+					<h2 className={styles.sectionTitle}>Projects</h2>
 
-					<Section
-						title='Autres Compétences'
-						icon={generalIcons.puzzle}
-					>
-						<SubSection title='Langues'>
-							<ul>
-								<li>Français - Langue Natale</li>
-								<li>Anglais - Confirmé</li>
-								<li>Langue Des Signes Française - Débutant</li>
-								<li>Allemand - Débutant</li>
-							</ul>
-						</SubSection>
-						<SubSection title="Centres d'Intérêts">
-							<ul>
-								<li>Guitare</li>
-								<li>
-									Gymnastique Artistique (Niveau National)
-								</li>
-								<li>Logo Design</li>
-								<li>Jeux Vidéos</li>
-							</ul>
-						</SubSection>
-					</Section>
+					<Project
+						name='Corehalla'
+						description='Statistics website for the game Brawlhalla.'
+						tags={[
+							'React',
+							'NextJS',
+							'Typescript',
+							'SCSS',
+							'Supabase',
+							'Brawlhalla API',
+						]}
+						images={[
+							{
+								src: '/images/projects/Corehalla.png',
+								alt: 'Corehalla',
+							},
+						]}
+						code='https://github.com/AlfieGoldson/CorehallaNeue'
+						link='https://neue.corehalla.com'
+						featured
+					/>
+					<ProjectGroup
+						projects={[
+							{
+								name: 'Bucko Graphics',
+								description:
+									'Website for an upcoming design startup.',
+								images: [
+									{
+										src: '/images/projects/BuckoGraphics.png',
+										alt: 'Bucko Graphics',
+									},
+								],
+								tags: [
+									'React',
+									'NextJS',
+									'Typescript',
+									'SCSS',
+									'Prismic',
+									'GraphQL',
+								],
+								link: 'https://bucko.graphics',
+							},
+							{
+								name: 'Mokap',
+								description:
+									'Module to quickly create complex data structures in javascript and typescript.',
+								images: [
+									{
+										src: '/images/projects/Ants.jpg',
+										alt: 'Ants',
+									},
+								],
+								tags: ['Typescript'],
+								code: 'https://github.com/AlfieGoldson/Mokap',
+							},
+							{
+								name: 'Fancy Discord',
+								description:
+									'Discord.js wrapper to build bots using JSX and Express like syntax.',
+								images: [
+									{
+										src: '/images/projects/Ants.jpg',
+										alt: 'Ants',
+									},
+								],
+								tags: ['Typescript', 'Discord API'],
+								code: 'https://github.com/AlfieGoldson/fancy-discord',
+								link: 'https://www.npmjs.com/package/fancy-discord.js',
+							},
+							{
+								name: 'Minecraft Gif Bundle',
+								description:
+									'Transforms .gif images into animated minecraft bundles.',
+								images: [
+									{
+										src: '/images/projects/MCGifBundle.gif',
+										alt: 'MC Gif Bundle',
+									},
+								],
+								tags: ['Python', 'Pillow'],
+								code: 'https://github.com/AlfieGoldson/MCGifBundle',
+							},
+							{
+								name: 'Brawlhalla French League',
+								description: 'Esport organization website.',
+								images: [
+									{
+										src: '/images/projects/BFL.png',
+										alt: 'Brawlhalla French League',
+									},
+								],
+								tags: ['React', 'NextJS', 'Typescript', 'SCSS'],
+								link: 'https://bfl.corehalla.com/',
+							},
+							{
+								name: 'Landshape',
+								description: 'Low Poly 3D Map and Tree Editor.',
+								images: [
+									{
+										src: '/images/projects/Landshape.jpg',
+										alt: 'Brawlhalla French League',
+									},
+								],
+								tags: ['Unity', 'C#'],
+								link: 'https://www.youtube.com/watch?v=03VXXnIR1Qk',
+							},
+							{
+								name: 'Ants Simulator',
+								description: 'Ant colony simulator.',
+								images: [
+									{
+										src: '/images/projects/Ants.png',
+										alt: 'Ants',
+									},
+								],
+								tags: ['Python', 'Tkinter'],
+								code: 'https://github.com/AlfieGoldson/Ants',
+							},
+						]}
+					/>
 				</div>
-			</div>
-			<p className={styles.footer}>
-				CV généré avec React + Playwright. Code Source:
-				github.com/AlfieGoldson/AlfieGoldson
-			</p>
-		</>
+			</section>
+			<section className={styles.section} id='contact'>
+				<div className={styles.sectionContent}>
+					<h2 className={styles.sectionTitle}>Contact</h2>
+				</div>
+			</section>
+		</div>
 	);
 }

@@ -1,0 +1,57 @@
+@import '~styles/theme.scss';
+
+.landing {
+	height: 80vh;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 5rem;
+	grid-template-areas: 'content' 'scroll';
+	align-items: center;
+	justify-items: center;
+	background-color: $dark-var1;
+	z-index: 0;
+
+	.blob {
+		grid-area: content;
+	}
+
+	.content {
+		grid-area: content;
+
+		.greeting {
+			font-size: 1rem;
+			color: $accent;
+			font-weight: $semibold;
+		}
+
+		.title {
+			margin-top: -0.75rem;
+			font-size: 5rem;
+			color: $light;
+			font-weight: $bold;
+
+			.titleAlt {
+				color: $light-var1;
+			}
+		}
+
+		.subtitle {
+			font-size: 1.25rem;
+			margin-bottom: 0.5rem;
+		}
+
+		.ctaGroup {
+			margin-top: 1.5rem;
+			& > *:not(:last-child) {
+				margin-right: 1rem;
+			}
+		}
+	}
+
+	.scrollCta {
+		font-size: 0.75rem;
+		font-weight: $semibold;
+		color: $light-var1;
+		text-transform: uppercase;
+	}
+}

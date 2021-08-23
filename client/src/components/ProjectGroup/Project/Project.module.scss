@@ -1,0 +1,43 @@
+@import '~styles/theme.scss';
+
+.project {
+	background-color: $dark;
+	padding: 1rem;
+	border-radius: 0.25rem;
+	position: relative;
+
+	&.featured {
+		border: 2px solid $accent;
+		// padding-top: 2rem;
+
+		.featuredText {
+			position: absolute;
+			top: -1rem;
+			left: 1rem;
+			background-color: $accent;
+			border-radius: 0.25rem;
+			padding: 0.125rem 0.5rem;
+		}
+	}
+
+	.thumb {
+		border-radius: 0.25rem;
+		object-fit: cover;
+		object-position: center;
+	}
+
+	.title {
+		font-size: 2rem;
+		line-height: 2.5rem;
+		font-weight: $bold;
+		margin-top: 1rem;
+		margin-bottom: 0.5rem;
+	}
+
+	.ctaGroup {
+		margin-top: 1.25rem;
+		& > *:not(:last-child) {
+			margin-right: 0.75rem;
+		}
+	}
+}

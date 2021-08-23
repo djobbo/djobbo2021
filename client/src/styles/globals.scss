@@ -6,15 +6,13 @@ body {
 	margin: 0;
 	font-family: 'Poppins', sans-serif;
 	color: $dark;
-	background-color: $white;
-}
-
-body {
-	padding: 1rem;
+	background-color: $light;
+	scroll-behavior: smooth;
+	scroll-padding-top: 5rem;
 }
 
 a {
-	color: $accent;
+	color: inherit;
 	text-decoration: none;
 }
 

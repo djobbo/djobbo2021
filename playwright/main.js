@@ -18,7 +18,7 @@ const margin = '0.4in';
 	const page = await context.newPage();
 	console.log('Opened New Page');
 
-	await page.goto('localhost:3000');
+	await page.goto('localhost:3000/resume');
 	console.log('Navigated to Portfolio');
 
 	const pdf = await page.pdf({

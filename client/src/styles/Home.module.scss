@@ -1,21 +1,25 @@
 @import './theme.scss';
 
-.page {
-	margin: 0 auto;
-	padding: 2rem 0;
-	display: grid;
-	max-width: 1200px;
-
-	@media print {
-		grid-template-columns: 1fr 1fr;
-		padding: 0;
-		gap: 1rem;
-		max-width: auto;
-	}
+.wrapper {
+	background-color: $dark;
+	color: $light;
 }
 
-.footer {
-	font-size: 0.75rem;
-	margin-top: 0.75rem;
-	text-align: center;
+.section {
+	padding: 6rem 0;
+
+	&.alt {
+		background-color: $dark-var1;
+	}
+
+	.sectionTitle {
+		font-size: 3rem;
+		font-weight: $bold;
+		margin-bottom: 4rem;
+	}
+
+	.sectionContent {
+		max-width: 1200px;
+		margin: 0 auto;
+	}
 }

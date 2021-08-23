@@ -1,0 +1,17 @@
+@import '~styles/theme.scss';
+
+.button {
+	color: $light;
+	padding: 0.5rem 1rem;
+	border-radius: 0.25rem;
+	display: inline-block;
+	font-weight: $semibold;
+
+	&.Primary {
+		background-color: $accent;
+	}
+
+	&.Secondary {
+		background-color: $dark-var2;
+	}
+}

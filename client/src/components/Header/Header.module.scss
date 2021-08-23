@@ -1,0 +1,24 @@
+@import '~styles/theme.scss';
+
+.header {
+	position: sticky;
+	top: 0;
+	background-color: $dark-var1;
+	z-index: 100;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 5rem;
+	padding: 0 2rem;
+
+	.nav {
+		display: flex;
+		align-items: center;
+		font-weight: $semibold;
+
+		& > *:not(:last-child) {
+			margin-right: 2.5rem;
+		}
+	}
+}

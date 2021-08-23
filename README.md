@@ -1,4 +1,4 @@
-# Hi there 👋, i'm Djobbo!
+# Hi there 👋, I'm Djobbo!
 
 ![Visits Badge](https://badges.pufler.dev/visits/AlfieGoldson/AlfieGoldson)
 ![Years Badge](https://badges.pufler.dev/years/AlfieGoldson)

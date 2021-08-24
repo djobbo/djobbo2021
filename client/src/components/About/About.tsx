@@ -5,7 +5,7 @@ export const About = () => {
 		<div className={styles.about}>
 			<div className={styles.content}>
 				<p className={styles.subtitle}>
-					Solution Designer <hr />
+					Solution Designer <span className={styles.separator} />
 				</p>
 				<p>
 					I love solving problems and finding clean and simple

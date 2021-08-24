@@ -5,9 +5,10 @@ import { Button } from '~components/Button';
 
 interface Props {
 	navLinks: NavLink[];
+	currentSection?: string;
 }
 
-export const Header = ({ navLinks }: Props) => {
+export const Header = ({ navLinks, currentSection }: Props) => {
 	return (
 		<header className={styles.header}>
 			<Link href='/#'>
@@ -33,7 +34,13 @@ export const Header = ({ navLinks }: Props) => {
 			<nav className={styles.nav}>
 				{navLinks.map(({ title, href, id }) => (
 					<Link href={href} key={id}>
-						{title}
+						<a
+							className={`${styles.navItem} ${
+								id === currentSection ? styles.active : ''
+							}`}
+						>
+							{title}
+						</a>
 					</Link>
 				))}
 				<Button href='mailto:djobbo.maiga@gmail.com' style='Primary'>

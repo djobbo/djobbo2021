@@ -16,9 +16,18 @@
 		display: flex;
 		align-items: center;
 		font-weight: $semibold;
+		color: $light-var1;
 
 		& > *:not(:last-child) {
 			margin-right: 2.5rem;
+		}
+
+		.navItem {
+			transition: 0.15s all ease;
+
+			&.active {
+				color: $light;
+			}
 		}
 	}
 }

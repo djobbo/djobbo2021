@@ -11,10 +11,10 @@ export const TagGroup = ({ tags }: Props) => {
 
 	return (
 		<>
-			{chunks.map((chunk) => (
-				<div className={styles.tabGroup}>
+			{chunks.map((chunk, i) => (
+				<div className={styles.tabGroup} key={i}>
 					{chunk.map((tag) => (
-						<Tag title={tag} />
+						<Tag title={tag} key={tag} />
 					))}
 				</div>
 			))}

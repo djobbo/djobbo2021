@@ -68,10 +68,29 @@ export default function HomePage() {
 									'NextJS',
 									'Typescript',
 									'SCSS',
-									'Prismic',
+									'Prismic CMS',
 									'GraphQL',
 								],
 								link: 'https://bucko.graphics',
+							},
+							{
+								name: 'Portfolio',
+								description: 'My Portfolio & Resume',
+								images: [
+									{
+										src: '/images/projects/Portfolio.png',
+										alt: 'Portfolio',
+									},
+								],
+								tags: [
+									'React',
+									'NextJS',
+									'Typescript',
+									'SCSS',
+									'Playwright',
+								],
+								link: 'https://dvmm.dev',
+								code: 'https://github.com/AlfieGoldson/AlfieGoldson',
 							},
 							{
 								name: 'Mokap',
@@ -122,7 +141,13 @@ export default function HomePage() {
 										alt: 'Brawlhalla French League',
 									},
 								],
-								tags: ['React', 'NextJS', 'Typescript', 'SCSS'],
+								tags: [
+									'React',
+									'NextJS',
+									'Typescript',
+									'SCSS',
+									'Contentful CMS',
+								],
 								link: 'https://bfl.corehalla.com/',
 							},
 							{

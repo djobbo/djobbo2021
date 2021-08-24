@@ -6,6 +6,7 @@
 	border-radius: 0.25rem;
 	display: inline-block;
 	font-weight: $semibold;
+	transition: 0.15s all ease;
 
 	&.Primary {
 		background-color: $accent;
@@ -13,5 +14,9 @@
 
 	&.Secondary {
 		background-color: $dark-var2;
+	}
+
+	&:hover {
+		transform: translateY(-0.15rem);
 	}
 }

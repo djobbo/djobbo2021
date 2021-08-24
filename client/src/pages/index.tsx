@@ -6,6 +6,7 @@ import { SkillGroup } from '~components/SkillGroup';
 import { skills } from '~data/skills';
 import { ProjectGroup } from '~components/ProjectGroup/ProjectGroup';
 import { Project } from '~components/ProjectGroup/Project';
+import { About } from '~components/About';
 
 export default function HomePage() {
 	return (
@@ -15,6 +16,7 @@ export default function HomePage() {
 			<section className={styles.section} id='about'>
 				<div className={styles.sectionContent}>
 					<h2 className={styles.sectionTitle}>About me</h2>
+					<About />
 				</div>
 			</section>
 			<section className={`${styles.section} ${styles.alt}`} id='skills'>

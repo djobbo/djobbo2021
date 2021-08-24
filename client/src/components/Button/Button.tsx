@@ -21,7 +21,7 @@ export const Button = ({
 		<Link href={href}>
 			<a
 				className={`${styles.button} ${styles[style]}`}
-				target={external ? '__blank' : '__self'}
+				target={external && '__blank'}
 			>
 				{children}
 			</a>

@@ -5,6 +5,8 @@
 	padding: 1rem;
 	border-radius: 0.25rem;
 	position: relative;
+	display: grid;
+	grid-template-rows: 1fr auto;
 
 	&.featured {
 		border: 2px solid $accent;

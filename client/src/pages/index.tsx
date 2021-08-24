@@ -95,7 +95,7 @@ export default function HomePage() {
 							{
 								name: 'Mokap',
 								description:
-									'Module to quickly create complex data structures in javascript and typescript.',
+									'NPM Module used to quickly create complex data structures in javascript and typescript.',
 								images: [
 									{
 										src: '/images/projects/Mokap.jpg',
@@ -108,7 +108,7 @@ export default function HomePage() {
 							{
 								name: 'Fancy Discord',
 								description:
-									'Discord.js wrapper to build bots using JSX and Express like syntax.',
+									'Wrapper around the discord.js NPM module letting you build Discord bots using JSX and an Express like syntax.',
 								images: [
 									{
 										src: '/images/projects/FancyDiscord.jpg',
@@ -122,7 +122,7 @@ export default function HomePage() {
 							{
 								name: 'Minecraft Gif Bundle',
 								description:
-									'Transforms .gif images into animated minecraft bundles.',
+									'Utility to transform .gif images into animated minecraft bundles.',
 								images: [
 									{
 										src: '/images/projects/MCGifBundle.gif',

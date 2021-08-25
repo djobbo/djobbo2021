@@ -10,19 +10,9 @@ import { useScrollAnchor } from '~hooks/useScrollAnchor';
 import { projects } from '~data/projects';
 
 export default function HomePage() {
-	const [
-		[
-			aboutSectionRef,
-			skillsSectionRef,
-			projectsSectionRef,
-			contactSectionRef,
-		],
-		currentSection,
-	] = useScrollAnchor(
-		['about', 'skills', 'projects', 'contact'],
-		'home',
-		120
-	);
+	const [addSectionAnchor, currentSection] = useScrollAnchor<
+		'about' | 'skills' | 'projects' | 'contact' | 'home'
+	>('home', 120);
 
 	return (
 		<div className={styles.wrapper}>
@@ -31,7 +21,7 @@ export default function HomePage() {
 			<section
 				className={styles.section}
 				id='about'
-				ref={aboutSectionRef}
+				ref={addSectionAnchor('about')}
 			>
 				<div className={styles.sectionContent}>
 					<h2 className={styles.sectionTitle}>About me</h2>
@@ -41,7 +31,7 @@ export default function HomePage() {
 			<section
 				className={`${styles.section} ${styles.alt}`}
 				id='skills'
-				ref={skillsSectionRef}
+				ref={addSectionAnchor('skills')}
 			>
 				<div className={styles.sectionContent}>
 					<h2 className={styles.sectionTitle}>Skills</h2>
@@ -52,7 +42,7 @@ export default function HomePage() {
 			<section
 				className={`${styles.section} ${styles.alt}`}
 				id='projects'
-				ref={projectsSectionRef}
+				ref={addSectionAnchor('projects')}
 			>
 				<div className={styles.sectionContent}>
 					<h2 className={styles.sectionTitle}>Projects</h2>
@@ -63,7 +53,7 @@ export default function HomePage() {
 			<section
 				className={styles.section}
 				id='contact'
-				ref={contactSectionRef}
+				ref={addSectionAnchor('contact')}
 			>
 				<div className={styles.sectionContent}>
 					<h2 className={styles.sectionTitle}>Contact</h2>

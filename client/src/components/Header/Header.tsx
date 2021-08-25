@@ -2,13 +2,15 @@ import styles from './Header.module.scss';
 import Link from 'next/link';
 import { NavLink } from '~util/navigation';
 import { Button } from '~components/Button';
+import { useScrollSections } from '~providers/ScrollSectionsProvider';
 
 interface Props {
 	navLinks: NavLink[];
-	currentSection?: string;
 }
 
-export const Header = ({ navLinks, currentSection }: Props) => {
+export const Header = ({ navLinks }: Props) => {
+	const { currentSection } = useScrollSections();
+
 	return (
 		<header className={styles.header}>
 			<Link href='/#'>

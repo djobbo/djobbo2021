@@ -1,0 +1,20 @@
+@import '~styles/theme.scss';
+
+.section {
+	padding: 6rem 0;
+
+	&.alt {
+		background-color: $dark-var1;
+	}
+
+	.sectionTitle {
+		font-size: 3rem;
+		font-weight: $bold;
+		margin-bottom: 4rem;
+	}
+
+	.sectionContent {
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+}

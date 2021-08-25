@@ -4,12 +4,21 @@
 	color: $light;
 	padding: 0.5rem 1rem;
 	border-radius: 0.25rem;
-	display: inline-block;
 	font-weight: $semibold;
 	transition: 0.15s all ease;
+	display: inline-flex;
+	align-items: center;
+	gap: 0.25rem;
+
+	svg {
+		width: 1.5rem;
+		height: 1.5rem;
+		fill: $light;
+	}
 
 	&.Primary {
 		background-color: $accent;
+		fill: $light;
 	}
 
 	&.Secondary {

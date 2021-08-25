@@ -38,6 +38,9 @@
 
 	.ctaGroup {
 		margin-top: 1.25rem;
+		display: flex;
+		align-items: center;
+
 		& > *:not(:last-child) {
 			margin-right: 0.75rem;
 		}

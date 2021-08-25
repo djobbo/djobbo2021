@@ -1,4 +1,4 @@
-import { MutableRefObject, useEffect, useState } from 'react';
+import { MutableRefObject, useEffect, useRef, useState } from 'react';
 
 interface Anchor<AnchorName extends string = string> {
 	name: AnchorName;
@@ -6,14 +6,20 @@ interface Anchor<AnchorName extends string = string> {
 }
 
 export const useScrollAnchor = <AnchorName extends string = string>(
-	anchors: Anchor<AnchorName>[],
+	anchorNames: AnchorName[],
 	defaultAnchorName: AnchorName,
 	scrollOffset = 0
-): AnchorName => {
+): [anchors: MutableRefObject<HTMLElement>[], currentAnchor: AnchorName] => {
+	const anchors = useRef(
+		anchorNames.map<Anchor<AnchorName>>((name) => ({
+			name,
+			ref: { current: null },
+		}))
+	);
 	const [currentAnchor, setCurrentAnchor] = useState(defaultAnchorName);
 
 	useEffect(() => {
-		const anchorsOffsets = anchors
+		const anchorsOffsets = anchors.current
 			.filter(({ ref }) => ref && ref.current)
 			.map(({ name, ref }) => ({
 				name,
@@ -35,7 +41,10 @@ export const useScrollAnchor = <AnchorName extends string = string>(
 		return () => {
 			window.removeEventListener('scroll', onScroll);
 		};
-	}, [anchors]);
+	}, [anchorNames]);
 
-	return currentAnchor ?? defaultAnchorName;
+	return [
+		anchors.current.map(({ ref }) => ref),
+		currentAnchor ?? defaultAnchorName,
+	];
 };

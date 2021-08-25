@@ -7,34 +7,19 @@ import { skills } from '~data/skills';
 import { ProjectGroup } from '~components/ProjectGroup/ProjectGroup';
 import { About } from '~components/About';
 import { useScrollAnchor } from '~hooks/useScrollAnchor';
-import { useRef } from 'react';
 import { projects } from '~data/projects';
 
 export default function HomePage() {
-	const aboutSectionRef = useRef<HTMLElement>(null);
-	const skillsSectionRef = useRef<HTMLElement>(null);
-	const projectsSectionRef = useRef<HTMLElement>(null);
-	const contactSectionRef = useRef<HTMLElement>(null);
-
-	const currentSection = useScrollAnchor(
+	const [
 		[
-			{
-				name: 'about',
-				ref: aboutSectionRef,
-			},
-			{
-				name: 'skills',
-				ref: skillsSectionRef,
-			},
-			{
-				name: 'projects',
-				ref: projectsSectionRef,
-			},
-			{
-				name: 'contact',
-				ref: contactSectionRef,
-			},
+			aboutSectionRef,
+			skillsSectionRef,
+			projectsSectionRef,
+			contactSectionRef,
 		],
+		currentSection,
+	] = useScrollAnchor(
+		['about', 'skills', 'projects', 'contact'],
 		'home',
 		120
 	);

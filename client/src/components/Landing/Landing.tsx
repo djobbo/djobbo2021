@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export const Landing = () => {
 	return (
-		<div className={styles.landing}>
+		<div className={styles.landing} id='home'>
 			<svg
 				width='484'
 				height='451'

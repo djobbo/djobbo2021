@@ -3,7 +3,7 @@ import { useScrollSections } from '~providers/ScrollSectionsProvider';
 import styles from './Section.module.scss';
 
 interface Props {
-	title: string;
+	title?: string;
 	children: ReactNode;
 	id: string;
 	altBackground?: boolean;

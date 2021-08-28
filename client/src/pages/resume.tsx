@@ -24,10 +24,7 @@ export default function Home() {
 								accessible applications.
 							</p>
 							<ul>
-								<li>
-									{techIcons.gmail}
-									djobbo.maiga@gmail.com
-								</li>
+								<li>{techIcons.gmail} hi@dvmm.dev</li>
 								<li>{generalIcons.globe} dvmm.dev</li>
 								<li>
 									{techIcons.github} github.com/AlfieGoldson

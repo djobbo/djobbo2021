@@ -1,12 +1,7 @@
-import { ReactElement } from 'react';
+import { IconData } from '~components/IconGroup/Icon';
 import { techIcons } from '~util/icons';
 
-export interface Skill {
-	title: string;
-	icon: ReactElement;
-}
-
-export const skills: Skill[] = [
+export const skills: IconData[] = [
 	{
 		title: 'HTML',
 		icon: techIcons.html,

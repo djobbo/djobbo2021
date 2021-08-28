@@ -1,0 +1,6 @@
+.skillGroup {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+	gap: 4rem;
+	width: 100%;
+}

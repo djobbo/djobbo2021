@@ -1,1 +1,6 @@
 dist/
+
+.vercel/
+
+node_modules/
+.vercel

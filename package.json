@@ -1,0 +1,14 @@
+{
+	"name": "resume",
+	"version": "0.1.0",
+	"private": "true",
+	"repository": "https://github.com/AlfieGoldson/AlfieGoldson.git",
+	"author": "Alfie <4998293+AlfieGoldson@users.noreply.github.com>",
+	"workspaces": [
+		"client"
+	],
+	"license": "MIT",
+	"devDependencies": {
+		"vercel": "^23.1.2"
+	}
+}

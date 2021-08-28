@@ -8,7 +8,7 @@ export const Contact = () => {
 		<div className={styles.contact}>
 			<div className={styles.content}>
 				<p>
-					Wanna work with me? Let me know with what I can help you
+					Want to work with me? Let me know with what I can help you
 					with!
 				</p>
 				<Button href='mailto:hi@dvmm.dev' style='Primary'>

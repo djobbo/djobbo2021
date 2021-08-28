@@ -49,7 +49,7 @@ const handler: NextApiHandler = async (req, res) => {
 
 	await browser.close();
 
-	res.setHeader('Cache-Control', 's-maxage=3600, stale-while-revalidate');
+	res.setHeader('Cache-Control', 's-maxage=31536000, stale-while-revalidate');
 	res.setHeader('Content-Type', 'application/pdf');
 
 	res.end(data);

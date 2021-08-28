@@ -33,7 +33,9 @@ export const Landing = () => {
 					<Button href='#projects' style='Primary'>
 						View my work
 					</Button>
-					<Button href='#contact'>Contact me</Button>
+					<Button href='/api/resume' external>
+						Resume
+					</Button>
 				</div>
 			</div>
 

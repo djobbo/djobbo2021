@@ -13,7 +13,7 @@ export default function Home() {
 					<Heading
 						firstname='Djobbo-Victor'
 						lastname='Maiga-Monsallier'
-						titles={['Développement Web Fullstack', 'Design UI/UX']}
+						titles={['Frontend & Backend Development', 'UI Design']}
 					/>
 					<Section title='À propos' icon={generalIcons.person}>
 						<SubSection title='Qui suis-je ?'>
@@ -45,20 +45,70 @@ export default function Home() {
 						title='Expérience et Projets Personnels'
 						icon={generalIcons.suitcase}
 					>
-						<SubSection title='Développeur Web & UI/UX Designer Freelance'>
-							Association{' '}
-							<strong>@Brawlhalla French League</strong> (depuis
-							octobre 2020)
+						<SubSection title='Développeur Fullstack'>
+							<strong>@Corehalla</strong> (depuis 2019) <br />
+							<a href='http://corehalla.com' target='_blank'>
+								http://corehalla.com
+							</a>{' '}
+							|{' '}
+							<a
+								href='https://neue.corehalla.com'
+								target='_blank'
+							>
+								https://neue.corehalla.com
+							</a>
+							<br />
+							Site de statistiques et classements pour le jeu
+							Brawlhalla.
 							<ul>
 								<li>
-									Création de la maquette du site internet
-									avec Adobe XD et dévelopment des
-									user-stories.
+									Dévelopement complet du site avec React,
+									Next.js, Typescript, Sass, Framer Motion et
+									l'API REST de Brawlhalla.
 								</li>
 								<li>
-									Réalisation (en cours) du site web en
-									utilisant le stack suivant: React, Next.js,
-									Typescript, Sass, Contentful et GraphQL.
+									Création d'un bot Discord en utilisant
+									NodeJS, Typescript et Discord.js.
+								</li>
+							</ul>
+						</SubSection>
+						<SubSection title='Développeur Fullstack'>
+							<strong>@BuckoGraphics</strong> (depuis janvier
+							2021)
+							<br />
+							<a href='https://bucko.graphics' target='_blank'>
+								https://bucko.graphics
+							</a>
+							<br />
+							Startup de design, branding et création de logos.
+							<ul>
+								<li>
+									Dévelopement du portfolio avec React,
+									Next.js, Typescript, Sass, Framer Motion,
+									Prismic CMS et GraphQL
+								</li>
+								<li>
+									Création d'un bot Discord en utilisant
+									NodeJS, Typescript et Discord.js.
+								</li>
+							</ul>
+						</SubSection>
+						<SubSection title='Développeur Web & UI/UX Designer Freelance'>
+							Association{' '}
+							<strong>@Brawlhalla French Lobby</strong> (depuis
+							octobre 2020)
+							<br />
+							<a href='https://bfl.corehalla.com' target='_blank'>
+								https://bfl.corehalla.com
+							</a>
+							<br />
+							Association ayant pour but de promouvoir l'Esport en
+							France.
+							<ul>
+								<li>
+									Réalisation du site internet avec React,
+									Next.js, Typescript, Sass, Contentful CMS et
+									GraphQL.
 								</li>
 								<li>
 									Organisation d'événements en ligne et design
@@ -67,7 +117,7 @@ export default function Home() {
 								</li>
 							</ul>
 						</SubSection>
-						<SubSection title='Développeur Freelance'>
+						{/* <SubSection title='Développeur Freelance'>
 							<strong>@Global Breakout</strong> (janvier 2021 -
 							avril 2021)
 							<ul>
@@ -78,83 +128,25 @@ export default function Home() {
 									TwitchAPI.
 								</li>
 							</ul>
-						</SubSection>
-						<SubSection title='Corehalla (Projet Personnel)'>
-							Site de statistiques et classements pour le jeu
-							Brawlhalla.
-							<ul>
-								<li>
-									Création de la maquette du site internet
-									avec Adobe XD.
-								</li>
-								<li>
-									Dévelopement du site avec le stack: React,
-									Next.js, Typescript, Sass, Framer Motion et
-									l'API REST de Brawlhalla.
-									<br />
-									Une version antérieure basée sur le stack
-									NodeJS, Express, EJS et JQuery est
-									actuellement publique. (corehalla.com)
-								</li>
-								<li>
-									Création d'un robot Discord en utilisant
-									NodeJS, Typescript et Discord.js.
-								</li>
-							</ul>
-						</SubSection>
+						</SubSection> */}
 						<SubSection title='Entraîneur de Gymnastique Artistique Masculine'>
 							<strong>@Étoile Alençonnaise</strong> (2012 - 2016)
 						</SubSection>
+						<SubSection
+							title={
+								<>
+									Voir plus sur mon portfolio:{' '}
+									<strong>
+										<a href='https://dvmm.dev'>
+											https://dvmm.dev
+										</a>
+									</strong>
+								</>
+							}
+						></SubSection>
 					</Section>
 				</div>
 				<div>
-					<Section
-						title='Formation et Diplômes'
-						icon={generalIcons.gradCap}
-					>
-						<SubSection
-							title={
-								<>
-									<strong>Licence 3 Mathématiques</strong>{' '}
-									@UNICAEN (Actuellement)
-								</>
-							}
-						/>
-						<SubSection
-							title={
-								<>
-									<strong>Permis B</strong>, obtenu en 2017.
-								</>
-							}
-						/>
-						<SubSection
-							title={
-								<>
-									<strong>Baccalauréat Scientifique</strong>{' '}
-									mention Bien, obtenu en 2017.
-								</>
-							}
-						/>
-						<SubSection
-							title={
-								<>
-									<strong>Diplôme National du Brevet</strong>{' '}
-									mention Très Bien, obtenu en 2014.
-								</>
-							}
-						/>
-						<SubSection
-							title={
-								<>
-									<strong>
-										Diplôme de juge en Gymnastique
-										Artistique Masculine
-									</strong>
-									, obtenu en 2011.
-								</>
-							}
-						/>
-					</Section>
 					<Section title='Mon Tech Stack' icon={generalIcons.code}>
 						<SubSection title='Langages'>
 							<IconGrid
@@ -226,6 +218,53 @@ export default function Home() {
 							/>
 						</SubSection>
 					</Section>
+					<Section
+						title='Formation et Diplômes'
+						icon={generalIcons.gradCap}
+					>
+						<SubSection
+							title={
+								<>
+									<strong>Licence Mathématiques</strong>{' '}
+									@UNICAEN (Actuellement)
+								</>
+							}
+						/>
+						<SubSection
+							title={
+								<>
+									<strong>Permis B</strong>, obtenu en 2017.
+								</>
+							}
+						/>
+						<SubSection
+							title={
+								<>
+									<strong>Baccalauréat Scientifique</strong>{' '}
+									mention Bien, obtenu en 2017.
+								</>
+							}
+						/>
+						<SubSection
+							title={
+								<>
+									<strong>Diplôme National du Brevet</strong>{' '}
+									mention Très Bien, obtenu en 2014.
+								</>
+							}
+						/>
+						<SubSection
+							title={
+								<>
+									<strong>
+										Diplôme de juge en Gymnastique
+										Artistique Masculine
+									</strong>
+									, obtenu en 2011.
+								</>
+							}
+						/>
+					</Section>
 
 					<Section
 						title='Autres Compétences'
@@ -253,7 +292,7 @@ export default function Home() {
 				</div>
 			</div>
 			<p className={styles.footer}>
-				CV généré avec React + Playwright. Code Source:
+				CV généré avec NextJS + React + Playwright. Code Source:
 				github.com/AlfieGoldson/AlfieGoldson
 			</p>
 		</>

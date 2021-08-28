@@ -3,7 +3,6 @@ import { Project as Props } from '~data/projects';
 import { TagGroup } from '~components/TagGroup';
 import { Button } from '~components/Button';
 import Image from 'next/image';
-import { techIcons } from '~util/icons';
 
 export const Project = ({
 	name,

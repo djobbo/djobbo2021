@@ -60,7 +60,7 @@ export default function Home() {
 									Brawlhalla's REST API.
 								</li>
 								<li>
-									Use of NodeJS, Typescript et Discord.js to
+									Use of NodeJS, Typescript and Discord.js to
 									build a Discord bot.
 								</li>
 							</ul>
@@ -82,7 +82,7 @@ export default function Home() {
 								<li>
 									Portfolio development with React, NextJS,
 									Typescript, Sass, Framer Motion, Prismic CMS
-									et GraphQL.
+									and GraphQL.
 								</li>
 							</ul>
 						</SubSection>

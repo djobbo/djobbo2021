@@ -146,7 +146,7 @@ export default function Home() {
 				</div>
 				<div>
 					<Section title='My tech stack' icon={generalIcons.code}>
-						<SubSection title='Langages'>
+						<SubSection title='Languages'>
 							<IconGrid
 								icons={[
 									{ name: 'HTML5', icon: techIcons.html },
@@ -165,7 +165,7 @@ export default function Home() {
 								]}
 							/>
 						</SubSection>
-						<SubSection title='Librairies / Frameworks'>
+						<SubSection title='Libraries / Frameworks'>
 							<IconGrid
 								icons={[
 									{ name: 'NodeJS', icon: techIcons.nodejs },
@@ -195,7 +195,7 @@ export default function Home() {
 								]}
 							/>
 						</SubSection>
-						<SubSection title='Outils / Logiciels'>
+						<SubSection title='Tools / Software'>
 							<IconGrid
 								icons={[
 									{ name: 'VS Code', icon: techIcons.vscode },

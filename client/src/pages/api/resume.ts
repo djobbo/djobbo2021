@@ -8,15 +8,14 @@ const handler: NextApiHandler = async (req, res) => {
 
 	const execPath = await chromium.executablePath;
 
+	// https://github.com/alixaxel/chrome-aws-lambda/wiki/HOWTO:-Local-Development
+	if (process.env.NODE_ENV !== 'production')
+		process.env.AWS_LAMBDA_FUNCTION_NAME = 'TEST_FUNCTION';
+
 	if (!execPath) {
 		res.status(500).end('Failed to Generate Resume.');
 		return;
 	}
-	console.log(execPath);
-
-	// https://github.com/alixaxel/chrome-aws-lambda/wiki/HOWTO:-Local-Development
-	if (process.env.NODE_ENV !== 'production')
-		process.env.AWS_LAMBDA_FUNCTION_NAME = 'TEST_FUNCTION';
 
 	const browser = await playwrightChromium.launch({
 		args: chromium.args,

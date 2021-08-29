@@ -222,14 +222,14 @@ export default function Home() {
 							title={
 								<>
 									<strong>Licence Mathématiques</strong>{' '}
-									@UNICAEN (Actuellement)
+									@UNICAEN (Currently)
 								</>
 							}
 						/>
 						<SubSection
 							title={
 								<>
-									<strong>Permis B</strong>, obtenu en 2017.
+									<strong>Driver's License</strong> (2017).
 								</>
 							}
 						/>
@@ -237,7 +237,7 @@ export default function Home() {
 							title={
 								<>
 									<strong>Baccalauréat Scientifique</strong>{' '}
-									mention Bien, obtenu en 2017.
+									(2017).
 								</>
 							}
 						/>
@@ -245,7 +245,7 @@ export default function Home() {
 							title={
 								<>
 									<strong>Diplôme National du Brevet</strong>{' '}
-									mention Très Bien, obtenu en 2014.
+									(2014).
 								</>
 							}
 						/>
@@ -253,10 +253,9 @@ export default function Home() {
 							title={
 								<>
 									<strong>
-										Diplôme de juge en Gymnastique
-										Artistique Masculine
+										Men's Artistic Gymnastics Judge Diploma
 									</strong>
-									, obtenu en 2011.
+									(2011).
 								</>
 							}
 						/>

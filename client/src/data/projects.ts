@@ -113,7 +113,7 @@ export const projects: Project[] = [
 			},
 		],
 		tags: ['React', 'NextJS', 'Typescript', 'SCSS', 'Contentful CMS'],
-		link: 'https://bfl.corehalla.com/',
+		link: 'https://league.brawl.fr/',
 	},
 	{
 		name: 'Landshape',

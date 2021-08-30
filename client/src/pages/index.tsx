@@ -10,9 +10,7 @@ import { projects } from '~data/projects';
 import Head from 'next/head';
 import { Section } from '~components/Section';
 import { ScrollSectionsProvider } from '~providers/ScrollSectionsProvider';
-import { Button } from '~components/Button';
 import { Footer } from '~components/Footer';
-import { techIcons } from '~util/icons';
 import { Contact } from '~components/Contact';
 
 export default function HomePage() {

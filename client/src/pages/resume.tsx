@@ -88,7 +88,7 @@ export default function Home() {
 						</SubSection>
 						<SubSection title='Freelance Fullstack Developer'>
 							Association{' '}
-							<strong>@Brawlhalla French Lobby</strong> (since
+							<strong>@Brawlhalla French League</strong> (since
 							october 2020)
 							<br />
 							Esport association striving to promote Esport in
@@ -96,10 +96,10 @@ export default function Home() {
 							<br />
 							<i>
 								<a
-									href='https://bfl.corehalla.com'
+									href='https://league.brawl.fr'
 									target='_blank'
 								>
-									bfl.corehalla.com
+									league.brawl.fr
 								</a>
 							</i>
 							<ul>

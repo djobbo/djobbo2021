@@ -12,8 +12,9 @@ I'm a 21yo self taught fullstack web developer.
 
 ## 📚 What I'm currently studying
 
-I've been learning blockchain & solidity for the past few weeks. Gonna try and
-launch an app built on Ethereum soon™.
+- Blockchain & Cryptocurrencies
+- Solidity
+- Rust
 
 ## 💻 My Tech Stack
 

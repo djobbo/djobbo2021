@@ -8,33 +8,33 @@ export const Contact = () => {
 		<div className={styles.contact}>
 			<div className={styles.content}>
 				<p>Want to work with me? Let me know what I can do for you!</p>
-				<Button href='mailto:hi@dvmm.dev' style='Primary'>
+				<Button href='mailto:hi@djobbo.com' style='Primary'>
 					Email me
 				</Button>
 			</div>
 			<IconGroup
 				icons={[
 					{
-						title: '/AlfieGoldson',
+						title: '/djobbo',
 						icon: techIcons.github,
 						link: {
-							href: 'https://github.com/AlfieGoldson',
+							href: 'https://github.com/djobbo',
 							external: true,
 						},
 					},
 					{
-						title: '/in/dvmm',
+						title: '/in/djobbo',
 						icon: techIcons.linkedin,
 						link: {
-							href: 'https://linkedin.com/in/dvmm',
+							href: 'https://linkedin.com/in/djobbo',
 							external: true,
 						},
 					},
 					{
-						title: 'hi@dvmm.dev',
+						title: 'hi@djobbo.com',
 						icon: techIcons.gmail,
 						link: {
-							href: 'mailto:hi@dvmm.dev',
+							href: 'mailto:hi@djobbo.com',
 						},
 					},
 				]}

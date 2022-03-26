@@ -26,7 +26,7 @@ export const projects: Project[] = [
 				alt: 'Corehalla',
 			},
 		],
-		code: 'https://github.com/AlfieGoldson/CorehallaNeue',
+		code: 'https://github.com/djobbo/CorehallaNeue',
 		link: 'https://neue.corehalla.com',
 		featured: true,
 	},
@@ -60,8 +60,8 @@ export const projects: Project[] = [
 			},
 		],
 		tags: ['React', 'NextJS', 'Typescript', 'SCSS', 'Playwright'],
-		link: 'https://dvmm.dev',
-		code: 'https://github.com/AlfieGoldson/AlfieGoldson',
+		link: 'https://djobbo.com',
+		code: 'https://github.com/djobbo/djobbo',
 	},
 	{
 		name: 'Mokap',
@@ -74,7 +74,7 @@ export const projects: Project[] = [
 			},
 		],
 		tags: ['Typescript'],
-		code: 'https://github.com/AlfieGoldson/Mokap',
+		code: 'https://github.com/djobbo/Mokap',
 	},
 	{
 		name: 'Fancy Discord',
@@ -87,7 +87,7 @@ export const projects: Project[] = [
 			},
 		],
 		tags: ['Typescript', 'Discord API'],
-		code: 'https://github.com/AlfieGoldson/fancy-discord',
+		code: 'https://github.com/djobbo/fancy-discord',
 		link: 'https://www.npmjs.com/package/fancy-discord.js',
 	},
 	{
@@ -101,7 +101,7 @@ export const projects: Project[] = [
 			},
 		],
 		tags: ['Python', 'Pillow'],
-		code: 'https://github.com/AlfieGoldson/MCGifBundle',
+		code: 'https://github.com/djobbo/MCGifBundle',
 	},
 	{
 		name: 'Brawlhalla French League',
@@ -137,6 +137,6 @@ export const projects: Project[] = [
 			},
 		],
 		tags: ['Python', 'Tkinter'],
-		code: 'https://github.com/AlfieGoldson/Ants',
+		code: 'https://github.com/djobbo/Ants',
 	},
 ];

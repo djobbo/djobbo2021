@@ -2,8 +2,8 @@
 	"name": "resume",
 	"version": "0.1.0",
 	"private": "true",
-	"repository": "https://github.com/AlfieGoldson/AlfieGoldson.git",
-	"author": "Alfie <4998293+AlfieGoldson@users.noreply.github.com>",
+	"repository": "https://github.com/djobbo/djobbo.git",
+	"author": "Djobbo <4998293+AlfieGoldson@users.noreply.github.com>",
 	"workspaces": [
 		"client"
 	],

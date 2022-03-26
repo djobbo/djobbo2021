@@ -24,13 +24,13 @@ export default function Home() {
 								accessible applications.
 							</p>
 							<ul>
-								<li>{techIcons.gmail} hi@dvmm.dev</li>
-								<li>{generalIcons.globe} dvmm.dev</li>
+								<li>{techIcons.gmail} hi@djobbo.com</li>
+								<li>{generalIcons.globe} djobbo.com</li>
 								<li>
-									{techIcons.github} github.com/AlfieGoldson
+									{techIcons.github} github.com/djobbo
 								</li>
 								<li>
-									{techIcons.linkedin} linkedin.com/in/dvmm
+									{techIcons.linkedin} linkedin.com/in/djobbo
 								</li>
 							</ul>
 						</SubSection>
@@ -137,7 +137,7 @@ export default function Home() {
 								<>
 									View more projects on my portfolio:{' '}
 									<strong>
-										<a href='https://dvmm.dev'>dvmm.dev</a>
+										<a href='https://djobbo.com'>djobbo.com</a>
 									</strong>
 								</>
 							}
@@ -283,7 +283,7 @@ export default function Home() {
 			</div>
 			<p className={styles.footer}>
 				Resume generated using NextJS, React and Playwright. Source:
-				github.com/AlfieGoldson/AlfieGoldson
+				github.com/djobbo/djobbo
 			</p>
 		</>
 	);

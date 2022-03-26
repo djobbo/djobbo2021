@@ -48,7 +48,7 @@ export const Header = ({ navLinks }: Props) => {
 				{/* <Button href='#contact' style='Primary'>
 					Contact me
 				</Button> */}
-				<Button href='mailto:hi@dvmm.dev' style='Primary'>
+				<Button href='mailto:hi@djobbo.com' style='Primary'>
 					Email me
 				</Button>
 			</nav>

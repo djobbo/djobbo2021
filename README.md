@@ -17,6 +17,6 @@
 
 ## 📈 My Coding Stats
 
-![AlfieGoldson's github stats](https://github-readme-stats.vercel.app/api?username=alfiegoldson&count_private=true&show_icons=true)
+![Djobbo's github stats](https://github-readme-stats.vercel.app/api?username=djobbo&count_private=true&show_icons=true)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=alfiegoldson&layout=compact)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=djobbo&layout=compact)

@@ -1,10 +1,10 @@
 # Hi there 👋, I'm Djobbo!
 
-![Visits Badge](https://badges.pufler.dev/visits/AlfieGoldson/AlfieGoldson)
-![Years Badge](https://badges.pufler.dev/years/AlfieGoldson)
-![Repos Badge](https://badges.pufler.dev/repos/AlfieGoldson)
-![Gists Badge](https://badges.pufler.dev/gists/AlfieGoldson)
-![Commits Badge](https://badges.pufler.dev/commits/monthly/AlfieGoldson)
+![Visits Badge](https://badges.pufler.dev/visits/djobbo/djobbo)
+![Years Badge](https://badges.pufler.dev/years/djobbo)
+![Repos Badge](https://badges.pufler.dev/repos/djobbo)
+![Gists Badge](https://badges.pufler.dev/gists/djobbo)
+![Commits Badge](https://badges.pufler.dev/commits/monthly/djobbo)
 
 ## 💻 My Tech Stack
 
